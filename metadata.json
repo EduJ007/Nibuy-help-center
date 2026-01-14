@@ -1,0 +1,7 @@
+{
+  "name": "Nibuy - Central de Ajuda",
+  "description": "Suporte oficial Nibuy. Encontre respostas sobre seus pedidos, entregas e pagamentos de forma rápida e simples.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
