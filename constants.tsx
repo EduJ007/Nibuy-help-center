@@ -1,31 +1,52 @@
 export const FAQS = [
   {
-    question: "Sua pergunta aqui",
-    answer: "Sua resposta aqui"
-  },
-  // Verifique se todos os itens fecham com },
-];
-export const CATEGORIES = [
-  {
-    id: 'como-funciona',
-    title: 'Como funciona',
-    icon: 'fa-solid fa-circle-info',
-    description: 'Entenda como a Nibuy seleciona e redireciona ofertas.',
-    details: 'Nós rastreamos as maiores lojas do Brasil. Quando você clica, geramos um link seguro que te leva direto para o produto oficial na Amazon ou Shopee.'
+    id: '1',
+    question: "Como a Nibuy funciona?",
+    answer: "A Nibuy é uma vitrine de ofertas. Nós selecionamos os melhores preços em lojas confiáveis como Amazon, Shopee e Mercado Livre. Quando você clica em um produto, é redirecionado para a loja oficial para finalizar a compra com segurança."
   },
   {
-    id: 'pedidos',
-    title: 'Pedidos e Rastreio',
-    icon: 'fa-solid fa-box',
-    description: 'Saiba como acompanhar suas compras nas lojas.',
-    details: 'Como a venda é feita pela loja oficial, o rastreio chega no seu e-mail cadastrado nela. Você pode consultar no app da Shopee/Amazon na aba "Meus Pedidos".'
+    id: '2',
+    question: "A compra é feita no site da Nibuy?",
+    answer: "Não. A Nibuy apenas indica as ofertas. O pagamento e a entrega são de responsabilidade da loja oficial onde o produto está anunciado (ex: Shopee, Amazon, Magalu)."
   },
   {
-    id: 'seguranca',
-    title: 'Segurança',
-    icon: 'fa-solid fa-shield-halved',
-    description: 'Por que comprar através dos nossos links é seguro.',
-    details: 'Você nunca paga para a Nibuy. O pagamento é feito direto no sistema da loja parceira, garantindo que seus dados bancários fiquem protegidos pelo lojista.'
+    id: '3',
+    question: "Como posso rastrear meu pedido?",
+    answer: "O rastreio deve ser feito diretamente no site ou aplicativo da loja onde você finalizou a compra. Verifique o seu e-mail para encontrar o código de rastreio enviado pela loja vendedora."
   },
-  // ... continue para as outras
+  {
+    id: '4',
+    question: "Os produtos são originais?",
+    answer: "Sim! Só selecionamos ofertas de lojas oficiais e vendedores verificados com boas avaliações para garantir que você receba produtos originais."
+  },
+  {
+    id: '5',
+    question: "O site da Nibuy é seguro?",
+    answer: "Sim. Nós não pedimos seus dados de cartão de crédito nem senhas. Você navega pelas ofertas e só insere seus dados nos sites oficiais das grandes lojas do varejo."
+  },
+  {
+    id: '6',
+    question: "Como saber se uma oferta ainda é válida?",
+    answer: "As ofertas na internet mudam rápido. Se ao clicar no produto o preço estiver diferente ou o item estiver esgotado, significa que a promoção da loja parceira encerrou."
+  },
+  {
+    id: '7',
+    question: "Posso cancelar uma compra?",
+    answer: "Sim, mas o cancelamento deve ser solicitado diretamente à loja onde você comprou o produto, seguindo as regras do Código de Defesa do Consumidor."
+  },
+  {
+    id: '8',
+    question: "A Nibuy cobra alguma taxa pelo serviço?",
+    answer: "Nenhum centavo! O serviço da Nibuy é 100% gratuito para os usuários. Nós apenas facilitamos a sua busca pelo melhor preço."
+  },
+  {
+    id: '9',
+    question: "Quais são as formas de pagamento aceitas?",
+    answer: "Como você compra diretamente nas grandes lojas, são aceitos Cartão de Crédito, PIX, Boleto e muitas vezes parcelamento sem juros, dependendo da loja de destino."
+  },
+  {
+    id: '10',
+    question: "Como entrar em contato com o suporte da Nibuy?",
+    answer: "Você pode nos chamar diretamente no WhatsApp pelo botão disponível aqui na Central de Ajuda ou enviar um e-mail para nibuyoficial@gmail.com.br."
+  }
 ];
