@@ -15,21 +15,21 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col font-sans selection:bg-[#ff5722]/10 selection:text-[#ff5722]">
+    <div className="min-h-screen bg-gray-200 flex flex-col font-sans selection:bg-[#ff5722]/10 selection:text-[#ff5722]">
       
       {/* 1. O HEADER (Aquele com "Voltar para o site") */}
       <Header />
       
       <main className="flex-grow">
         {/* 2. AS PERGUNTAS (FAQSection) */}
-        <div className="pt-10 bg-gray-100">
+        <div className="pt-10 bg-gray-200">
           <FAQSection items={filteredFaqs} searchQuery={searchQuery} />
         </div>
 
         {/* 3. BOTÃO WHATSAPP */}
-        <section className="bg-[#f9fafb] py-20 text-center border-t border-gray-100">
+        <section className="bg-gray-200 py-20 text-center border-t ">
           <div className="max-w-2xl mx-auto px-6">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Ainda tem dúvidas sobre um produto?</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Ainda tem dúvidas sobre algo ?</h2>
             <a 
               href="https://wa.me/558193611017" 
               target="_blank" 

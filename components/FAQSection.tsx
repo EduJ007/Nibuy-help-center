@@ -13,7 +13,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ items }) => {
   };
 
   return (
-    <section className="bg-gray-100 py-12" id="faq-section">
+    <section className="bg-gray-200 py-12" id="faq-section">
       <div className="max-w-3xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">
           Dúvidas Frequentes

@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         
         {/* COLUNA 1: IDENTIDADE */}
         <div className="col-span-1 md:col-span-2">
-          <span className="text-3xl font-black text-[#ff5722] italic uppercase tracking-tighter">
+          <span className="text-3xl font-black text-[#ff5722]">
             𝙉𝙞𝙗𝙪𝙮
           </span>
           <p className="mt-4 text-gray-400 max-w-sm text-sm leading-relaxed">
