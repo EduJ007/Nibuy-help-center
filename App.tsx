@@ -1,7 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import Header from './components/Header'; // IMPORTAÇÃO DO HEADER (O que faltava)
 import FAQSection from './components/FAQSection'; // IMPORTAÇÃO DO FAQ
-import AIChatBot from './components/AIChatBot';
 import Footer from './components/footer'; 
 import { FAQS } from './constants';
 
@@ -46,7 +45,6 @@ const App: React.FC = () => {
       {/* 4. FOOTER */}
       <Footer />
 
-      <AIChatBot />
     </div>
   );
 };
