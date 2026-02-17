@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
               Central de Ajuda    
             </a>
 
-            <a href="https://nibuy-contato.vercel.app/" className="text-gray-600 hover:text-[#ff5722] transition-all duration-300 text-[11px] font-black uppercase tracking-widest px-3">
+            <a href="https://nibuy-contact.vercel.app/" className="text-gray-600 hover:text-[#ff5722] transition-all duration-300 text-[11px] font-black uppercase tracking-widest px-3">
               Contato
             </a>
 
