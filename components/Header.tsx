@@ -7,25 +7,25 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           
-          <a href="https://nibuy-home-page.vercel.app/" className="flex items-center gap-2 cursor-pointer transition-opacity active:opacity-80">
+          <a href="https://nibuy-home-page.vercel.app/" className="flex items-center gap-2 cursor-pointer transition-opacity active:opacity-80 hover:scale">
             <img src="/logovermelha.png" alt="Nibuy Logo" className="h-14 w-auto object-contain" />
             <span className="text-2xl font-black text-[#ff5722] tracking-tight">𝙉𝙞𝙗𝙪𝙮</span>
           </a>
 
-          <div className="hidden md:flex items-center space-x-6 text-sm font-medium">
+          <div className="hidden md:flex items-center space-x-6 text-sm">
             <a 
               href="#" 
               onClick={(e) => { e.preventDefault(); window.location.reload(); }}
-              className="bg-[#ff5722] text-white px-5 py-2.5 rounded-full font-bold text-[11px] uppercase shadow-md transition-all duration-300 hover:bg-[#e64a19] active:scale-95 flex items-center justify-center"
+              className="bg-[#ff5722] text-white px-5 py-2.5 rounded-full font-bold text-[13px] transition-all duration-300 hover:bg-[#e64a19] active:scale-95 flex items-center justify-center"
             >
               Central de Ajuda    
             </a>
 
-            <a href="https://nibuy-contact.vercel.app/" className="text-gray-600 hover:text-[#ff5722] transition-all duration-300 text-[11px] font-black uppercase tracking-widest px-3">
+            <a href="https://nibuy-contact.vercel.app/" className="text-gray-600 hover:text-[#ff5722] transition-all duration-300 text-[13px] font-bold  tracking-widest px-3">
               Contato
             </a>
 
-            <a href="https://sobre-nibuy.vercel.app/" className="text-gray-600 hover:text-[#ff5722] transition-all duration-300 text-[11px] font-black uppercase tracking-widest px-2">
+            <a href="https://sobre-nibuy.vercel.app/" className="text-gray-600 hover:text-[#ff5722] transition-all duration-300 text-[13px] font-bold tracking-widest px-2">
               Sobre Nós
             </a>
           </div>
