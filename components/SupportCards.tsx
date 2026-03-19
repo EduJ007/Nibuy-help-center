@@ -20,7 +20,7 @@ const SupportCards: React.FC = () => {
           <h3 className="text-2xl font-bold text-gray-900">
             Ainda precisa de ajuda?
           </h3>
-          <p className="text-gray-500 font-medium text-[13px] mt-4 uppercase tracking-widest">Escolha um dos canais abaixo:</p>
+          <p className="text-gray-500 font-medium text-[16px] mt-4  tracking-widest">Escolha um dos canais abaixo:</p>
         </div>
 
         <div className="grid grid-cols-1 gap-4">
@@ -33,8 +33,8 @@ const SupportCards: React.FC = () => {
                 <MessageCircle size={26} />
               </div>
               <div className="ml-4 text-left">
-                <span className="block font-bold text-gray-800 italic text-sm uppercase tracking-tight leading-none">WhatsApp</span>
-                <span className="block text-[10px] text-gray-400 font-bold uppercase mt-1">Suporte</span>
+                <span className="block font-bold text-gray-800 italic text-[16px]  leading-none">WhatsApp</span>
+                <span className="block text-[12px] text-gray-400 font-bold  mt-1">Suporte</span>
               </div>
             </a>
 
@@ -45,8 +45,8 @@ const SupportCards: React.FC = () => {
                 <Instagram size={26} />
               </div>
               <div className="ml-4 text-left">
-                <span className="block font-bold text-gray-800 italic text-sm uppercase tracking-tight leading-none">Instagram</span>
-                <span className="block text-[10px] text-gray-400 font-bold uppercase mt-1">Perfil</span>
+                <span className="block font-bold text-gray-800 italic text-[16px] leading-none">Instagram</span>
+                <span className="block text-[12px] text-gray-400 font-bold  mt-1">Perfil</span>
               </div>
             </a>
 
@@ -57,8 +57,8 @@ const SupportCards: React.FC = () => {
                 <i className="fa-brands fa-pinterest text-2xl"></i>
               </div>
               <div className="ml-4 text-left">
-                <span className="block font-bold text-gray-800 italic text-sm uppercase tracking-tight leading-none">Pinterest</span>
-                <span className="block text-[10px] text-gray-400 font-bold uppercase mt-1">Ideias</span>
+                <span className="block font-bold text-gray-800 italic text-[16px]  leading-none">Pinterest</span>
+                <span className="block text-[12px] text-gray-400 font-bold  mt-1">Ideias</span>
               </div>
             </a>
           </div>
@@ -72,12 +72,12 @@ const SupportCards: React.FC = () => {
                   <Mail size={26} />
                 </div>
                 <div className="text-left">
-                  <h4 className="text-white font-bold italic uppercase text-sm leading-none tracking-tighter">E-mail Oficial</h4>
-                  <p className="text-gray-400 font-medium text-[11px] mt-1">{email}</p>
+                  <h4 className="text-white font-bold italic text-[16px] leading-none ">E-mail Oficial</h4>
+                  <p className="text-gray-400 font-medium text-[12px] mt-1">{email}</p>
                 </div>
               </div>
-              <button onClick={handleCopy} className={`flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-[10px] transition-all ${copied ? 'bg-green-500 text-white' : 'bg-white/10 text-[#ff5722] hover:bg-white hover:text-gray-900'}`}>
-                {copied ? <Check size={14} /> : <Copy size={14} />}
+              <button onClick={handleCopy} className={`flex items-center gap-2 px-5 py-3 rounded-xl font-bold text-[12px] transition-all ${copied ? 'bg-green-500 text-white' : 'bg-white/10 text-[#ff5722] hover:bg-white hover:text-gray-900'}`}>
+                {copied ? <Check size={16} /> : <Copy size={16} />}
                 {copied ? 'COPIADO!' : 'COPIAR'}
               </button>
             </a>

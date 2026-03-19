@@ -39,10 +39,15 @@ const Footer: React.FC = () => {
         {/* COLUNA 2: NAVEGAÇÃO */}
         <div>
           <h4 className="font-bold mb-6 uppercase text-[10px] tracking-[0.2em] text-white border-l-2 border-[#ff5722] pl-3">Navegação</h4>
-          <ul className="space-y-4 text-gray-400 text-xs font-bold uppercase tracking-tighter">
-            <li><a href="https://nibuy-home-page.vercel.app/" className="hover:text-white transition-colors">Início</a></li>
-            <li><a href="https://sobre-nibuy.vercel.app/" className="hover:text-white transition-colors">Sobre a Nibuy</a></li>
-            <li><a href="#" className="text-[#ff5722]">Central de Ajuda</a></li>
+          <ul className="space-y-4 text-gray-400 text-[14px] font-medium ">
+            <li><a href="https://nibuy-home-page.vercel.app/" className="hover:text-[#ff5722] transition-colors">Início</a></li>
+            <li><a href="https://sobre-nibuy.vercel.app/" className="hover:text-[#ff5722] transition-colors">Sobre Nós</a></li>
+            <li><a href="https://nibuy-central-ajuda.vercel.app/" className="text-[#ff5722] hover:text-white transition-colors">Central de Ajuda</a></li>
+            <li><a href="https://nibuy-contact.vercel.app/" className="hover:text-[#ff5722] transition-colors">Contato</a></li>
+            <li>
+               <a href="https://nibuy-produtos.vercel.app/#produtos"  className="hover:text-[#ff5722] transition-colors"
+>Produto</a>      
+                  </li>
           </ul>
         </div>
 
@@ -50,7 +55,7 @@ const Footer: React.FC = () => {
         <div>
           <h4 className="font-bold mb-6 uppercase text-[10px] tracking-[0.2em] text-white border-l-2 border-[#ff5722] pl-3">Suporte</h4>
           <div className="space-y-4">
-            <p className="text-xs text-gray-400 font-bold uppercase">Segunda a Sexta<br/><span className="text-white">09h às 18h</span></p>
+            <p className="text-[14px] text-gray-400 font-bold">Segunda a Sexta<br/><span className="text-white">09h às 18h</span></p>
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nibuyoficial@gmail.com"
               target="_blank"
               rel="noopener noreferrer" 
