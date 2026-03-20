@@ -2,7 +2,6 @@ import React, { useState, useMemo, useEffect } from 'react';
 import Header from './components/Header';
 import FAQSection from './components/FAQSection';
 import SupportCards from './components/SupportCards';
-import StartScreen from './components/StartScreen';
 import Footer from './components/footer';
 import Loader from "./components/Loader";
 import { FAQS } from './constants';
@@ -38,11 +37,6 @@ const App: React.FC = () => {
   // 1. Se estiver a carregar, mostra APENAS o Loader
   if (loading) {
     return <Loader />;
-  }
-
-  // 2. Se terminou de carregar e NÃO tem utilizador, mostra o Login
-  if (!user) {
-    return <StartScreen />;
   }
 
   // 3. Se terminou de carregar e TEM utilizador, mostra o Site
