@@ -31,7 +31,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ items }) => {
               >
                 <span className="font-semibold text-gray-700 group-hover:text-[#ff5722] transition-colors">
                   {faq.question}
-                </span>
+                </span>p
                 <i className={`fa-solid fa-chevron-down text-xs text-gray-400 transition-transform duration-300 ${
                   openId === faq.id ? 'rotate-180 text-[#ff5722]' : ''
                 }`}></i>
