@@ -376,7 +376,7 @@ useEffect(() => {
     
     <button
       onClick={() => user
-        ? window.location.href = "https://nibuy-contact.vercel.app/"
+        ? window.location.href = "https://nibuy-central-ajuda.vercel.app/"
         : showLoginWarning()
       }
       className="hover:text-gray-200 font-medium"

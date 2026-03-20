@@ -25,7 +25,7 @@ const App: React.FC = () => {
       // Pequeno delay opcional de 500ms só para o Loader não sumir rápido demais e ficar elegante
       setTimeout(() => {
         setLoading(false);
-      }, 800);
+      }, 500);
     });
 
     return () => unsubscribe();
